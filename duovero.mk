@@ -3,10 +3,10 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/gumstix/common/common.mk)
-$(call inherit-product, device/gumstix/pepper/device.mk)
+$(call inherit-product, device/gumstix/duovero/device.mk)
 
-PRODUCT_NAME := pepper
-PRODUCT_DEVICE := pepper
+PRODUCT_NAME := duovero
+PRODUCT_DEVICE := duovero
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Pepper
+PRODUCT_MODEL := DuoVero
 PRODUCT_MANUFACTURER := Gumstix_Inc 
