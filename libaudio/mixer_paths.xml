@@ -1,0 +1,22 @@
+<mixer>
+  <!-- These are the initial mixer settings -->
+
+  <!-- Set volume to max on init itself  -->
+  <ctl name="PCM Playback Volume" value="120" />
+
+  <path name="speaker">
+    <!-- placeholder -->
+    <ctl name="PCM Playback Volume" value="120" />
+  </path>
+
+  <path name="headphone">
+    <!-- placeholder -->
+    <ctl name="PCM Playback Volume" value="120" />
+  </path>
+
+
+  <path name="headset-mic">
+    <!-- placeholder -->
+    <ctl name="Mic Jack Switch" value="1" />
+   </path>
+</mixer>
