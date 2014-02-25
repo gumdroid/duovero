@@ -4,7 +4,7 @@
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_KERNEL := true
 UBOOT_CONFIG := omap4_duovero
-KERNEL_CONFIG := duovero_android
+KERNEL_CONFIG := android_4430_defconfig
 
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
