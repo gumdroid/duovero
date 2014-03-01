@@ -32,7 +32,6 @@ BOARD_USES_ALSA_AUDIO := true
 BUILD_WITH_ALSA_UTILS := true
 
 # Use SGX for OpenGL
-OMAPES := 4.x
 USE_OPENGL_RENDERER := true
 BOARD_EGL_CFG := device/gumstix/duovero/egl.cfg
 
